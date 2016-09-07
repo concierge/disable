@@ -23,7 +23,7 @@ var threads,
     };
 
 exports.load = function () {
-    threads = exports.platform.config.getConfig('disabled');
+    threads = exports.config;
     prevTimeStamp = Date.now();
 };
 
