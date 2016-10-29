@@ -23,7 +23,7 @@ var threads,
     };
 
 exports.load = function () {
-    threads = exports.config;
+    threads = this.config;
     prevTimeStamp = Date.now();
 };
 
